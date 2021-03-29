@@ -44,16 +44,16 @@ class HomeShowsViewController: UIViewController {
         if let destination = segue.destination as? PredesignedViewController,
               let cell = sender as? UICollectionViewCell,
               let indexPath = collectionView1.indexPath(for: cell) {
-            if(indexPath.row < defaultPredesigned.count) {
-                let show = defaultPredesigned[indexPath.row]
+            if(indexPath.row < DataProvider.shared.defaultPredesigned.count) {
+                let show = DataProvider.shared.defaultPredesigned[indexPath.row]
                 destination.showSelected = show
             }
         }
         if let destination = segue.destination as? CustomViewController,
               let cell = sender as? UICollectionViewCell,
               let indexPath = collectionView2.indexPath(for: cell) {
-            if(indexPath.row < defaultCustomShow.count) {
-                let show = defaultCustomShow[indexPath.row]
+            if(indexPath.row < DataProvider.shared.defaultCustomShow.count) {
+                let show = DataProvider.shared.defaultCustomShow[indexPath.row]
                 destination.showSelected = show
             }
         }
@@ -64,23 +64,23 @@ extension HomeShowsViewController: UICollectionViewDelegate, UICollectionViewDat
     /// Se configuran el número de celdas de los espectáculos en función de su collectionView
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         if collectionView == collectionView1 {
-            return defaultPredesigned.count
+            return DataProvider.shared.defaultPredesigned.count
         }
-        return defaultCustomShow.count
+        return DataProvider.shared.defaultCustomShow.count
     }
     /// Se configuran las imagenes y título de los espectáculos en función de su collectionView
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         let cell = collectionView1.dequeueReusableCell(withReuseIdentifier: "HomeShowsViewCell", for: indexPath) as? HomeShowsViewCell
-        if indexPath.row < defaultPredesigned.count {
-            let data = defaultPredesigned[indexPath.row]
+        if indexPath.row < DataProvider.shared.defaultPredesigned.count {
+            let data = DataProvider.shared.defaultPredesigned[indexPath.row]
             cell?.configure(image: data.image , type: data.type)
         }
         
         if collectionView == collectionView2 {
             let cell2 = collectionView2.dequeueReusableCell(withReuseIdentifier: "HomeShowsViewCell2", for: indexPath) as? HomeShowsViewCell2
-            if indexPath.row < defaultCustomShow.count {
-                let data = defaultCustomShow[indexPath.row]
+            if indexPath.row < DataProvider.shared.defaultCustomShow.count {
+                let data = DataProvider.shared.defaultCustomShow[indexPath.row]
                 cell2?.configure(image: data.image , type: data.type)
             }
             return cell2 ?? UICollectionViewCell()

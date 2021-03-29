@@ -38,7 +38,7 @@ class CustomViewController: UIViewController {
             showSelected?.tricks?.append(trick)
             print(trick.name)
         } else {
-            showSelected?.tricks?.append(defaultMagicTricks.first!)
+            showSelected?.tricks?.append(DataProvider.shared.defaultMagicTricks.first!)
         }
         //Sumamos uno al contador de juegos que hay en el botón buttonShow
         counter += 1
@@ -87,11 +87,11 @@ class CustomViewController: UIViewController {
         buttonAdd.roundedButtonValue(value: 4)
         buttonShow.roundedButtonValue(value: 4)
      ///Colocar por defecto en la view de añadir juegos el primer juego de la lista
-        imageShow.image = UIImage(named: defaultMagicTricks.first?.image ?? "")
-        titleShow.text = defaultMagicTricks.first?.name
-        descriptionShowLabel.text = defaultMagicTricks.first?.synopsis
-        durationLabel.text = "Duración: \(String(describing: defaultMagicTricks.first?.durationTime.description ?? "")) min"
-        priceLabel.text = "Desde \(String(describing: defaultMagicTricks.first?.price.description ?? ""))€"
+        imageShow.image = UIImage(named: DataProvider.shared.defaultMagicTricks.first?.image ?? "")
+        titleShow.text = DataProvider.shared.defaultMagicTricks.first?.name
+        descriptionShowLabel.text = DataProvider.shared.defaultMagicTricks.first?.synopsis
+        durationLabel.text = "Duración: \(String(describing: DataProvider.shared.defaultMagicTricks.first?.durationTime.description ?? "")) min"
+        priceLabel.text = "Desde \(String(describing: DataProvider.shared.defaultMagicTricks.first?.price.description ?? ""))€"
      ///Audio al añadir juego
         do {
             audioPlayer = try
@@ -111,7 +111,7 @@ class CustomViewController: UIViewController {
 extension CustomViewController: UITableViewDataSource, UITableViewDelegate {
     ///Número de celdas de todos los juegos de magia
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        defaultMagicTricks.count
+        DataProvider.shared.defaultMagicTricks.count
     }
     ///Tamaño celda de todos los juegos de magia
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -121,8 +121,8 @@ extension CustomViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CustomViewCell", for: indexPath) as? CustomViewCell
         
-        if(indexPath.row < defaultMagicTricks.count) {
-            let data = defaultMagicTricks[indexPath.row]
+        if(indexPath.row < DataProvider.shared.defaultMagicTricks.count) {
+            let data = DataProvider.shared.defaultMagicTricks[indexPath.row]
             cell?.configure(title: data.name, price: data.price.description, image: data.image)
             
         }
@@ -131,9 +131,9 @@ extension CustomViewController: UITableViewDataSource, UITableViewDelegate {
     }
     ///Muestra en la View el juego seleccionado
     internal func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if(indexPath.row < defaultMagicTricks.count) {
+        if(indexPath.row < DataProvider.shared.defaultMagicTricks.count) {
             
-            trickAdd = defaultMagicTricks[indexPath.row]
+            trickAdd = DataProvider.shared.defaultMagicTricks[indexPath.row]
             imageShow.image = UIImage(named: trickAdd?.image ?? "")
             titleShow.text = trickAdd?.name
             descriptionShowLabel.text = trickAdd?.synopsis

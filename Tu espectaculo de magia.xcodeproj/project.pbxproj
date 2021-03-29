@@ -11,7 +11,6 @@
 		DB0BAB1C25FEA0A900C85FAE /* HomeShowsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0BAB1B25FEA0A900C85FAE /* HomeShowsViewCell.swift */; };
 		DB0BAB2025FEAB9600C85FAE /* MagicTricks.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0BAB1F25FEAB9600C85FAE /* MagicTricks.swift */; };
 		DB0BAB2325FEABC300C85FAE /* MagicTricks_data.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0BAB2225FEABC300C85FAE /* MagicTricks_data.json */; };
-		DB0BAB2825FEB35300C85FAE /* Sample_data.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0BAB2725FEB35300C85FAE /* Sample_data.swift */; };
 		DB1C3666260129D7000866DD /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1C3665260129D7000866DD /* CustomViewController.swift */; };
 		DB2686F126014DA400BE0DA2 /* CustomViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2686F026014DA300BE0DA2 /* CustomViewCell.swift */; };
 		DB2686F4260154CD00BE0DA2 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2686F3260154CD00BE0DA2 /* UIViewExtension.swift */; };
@@ -46,7 +45,6 @@
 		DB0BAB1B25FEA0A900C85FAE /* HomeShowsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeShowsViewCell.swift; sourceTree = "<group>"; };
 		DB0BAB1F25FEAB9600C85FAE /* MagicTricks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicTricks.swift; sourceTree = "<group>"; };
 		DB0BAB2225FEABC300C85FAE /* MagicTricks_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MagicTricks_data.json; sourceTree = "<group>"; };
-		DB0BAB2725FEB35300C85FAE /* Sample_data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample_data.swift; sourceTree = "<group>"; };
 		DB1C3665260129D7000866DD /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
 		DB2686F026014DA300BE0DA2 /* CustomViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewCell.swift; sourceTree = "<group>"; };
 		DB2686F3260154CD00BE0DA2 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
@@ -106,7 +104,6 @@
 			children = (
 				DB3C1A1F25FD232900D97B0E /* Predesigned_data.json */,
 				DB0BAB2225FEABC300C85FAE /* MagicTricks_data.json */,
-				DB0BAB2725FEB35300C85FAE /* Sample_data.swift */,
 				DB2D7FEF25FF5DBF00AC4A13 /* CustomShow_data.json */,
 			);
 			path = Sample;
@@ -319,7 +316,6 @@
 				DB3C1A2425FD32F400D97B0E /* Predesigned.swift in Sources */,
 				DB2686F4260154CD00BE0DA2 /* UIViewExtension.swift in Sources */,
 				DB0BAB1525FE9B2100C85FAE /* HomeViewController.swift in Sources */,
-				DB0BAB2825FEB35300C85FAE /* Sample_data.swift in Sources */,
 				DB1C3666260129D7000866DD /* CustomViewController.swift in Sources */,
 				DB2CB5CC25EFE58C00C607EE /* SceneDelegate.swift in Sources */,
 				DB2D7FED25FF5C2D00AC4A13 /* CustomShow.swift in Sources */,
