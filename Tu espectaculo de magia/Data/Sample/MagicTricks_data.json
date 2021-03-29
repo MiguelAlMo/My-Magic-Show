@@ -1,0 +1,170 @@
+[
+    {
+        "name":"Pato Renato",
+        "image":"pato",
+        "durationTime":4,
+        "price":50,
+        "synopsis":"Es un pato capaz de hacer magia?"
+    },
+    {
+        "name":"Almas gemelas",
+        "image":"almas_gemelas",
+        "durationTime":4,
+        "price":40,
+        "synopsis":"Sabes que toda carta tiene su alma gemela?"
+    },
+    {
+        "name":"Trilero y su bolita",
+        "image":"cubilete",
+        "durationTime":5,
+        "price":50,
+        "synopsis":"Dónde esta la bolita"
+    },
+    {
+        "name":"Bolas de esponja",
+        "image":"bolas_esponja",
+        "durationTime":4,
+        "price":50,
+        "synopsis":"Una bola de esponja viajera y multiplicadora"
+    },
+    {
+        "name":"Triunfo",
+        "image":"triunfo",
+        "durationTime":4,
+        "price":40,
+        "synopsis":"Una carta perdida en una baraja mezclada cara arriba y cara abajo"
+    },
+    {
+        "name":"Card Toon",
+        "image":"cardtoon",
+        "durationTime":4,
+        "price":50,
+        "synopsis":"Recuerdas los primeros dibujos animados?"
+    },
+    {
+        "name":"Plata y Cobre",
+        "image":"plata_y_cobre",
+        "durationTime":4,
+        "price":50,
+        "synopsis":"Dos monedas. Si quitas una cuantas te quedan?"
+    },
+    {
+        "name":"CoinPenetro",
+        "image":"copenetro",
+        "durationTime":6,
+        "price":60,
+        "synopsis":"Una moneda atravesando un solido?"
+    },
+    {
+        "name":"Matrix & Reverse",
+        "image":"matrix",
+        "durationTime":6,
+        "price":60,
+        "synopsis":"Cuatro monedas debajo de cuatro cartas?"
+    },
+    {
+        "name":"Baraja Invisible",
+        "image":"baraja_invisible",
+        "durationTime":5,
+        "price":50,
+        "synopsis":"Imagina una baraja con una carta girada!"
+    },
+    {
+        "name":"La paloma",
+        "image":"paloma",
+        "durationTime":5,
+        "price":60,
+        "synopsis":"Un mago siempre viene bien acompañado!"
+    },
+    {
+        "name":"Predicción del Sur",
+        "image":"prediccion_cordobesa",
+        "durationTime":4,
+        "price":50,
+        "synopsis":"Una predicción imposible"
+    },
+    {
+        "name":"Iphone Prediction",
+        "image":"iphone",
+        "durationTime":4,
+        "price":40,
+        "synopsis":"Saca la calculadora y agárrate fuerte"
+    },
+    {
+        "name":"Suit Apparition",
+        "image":"suit_apparition",
+        "durationTime":5,
+        "price":50,
+        "synopsis":"Dónde están 13 cartas del palo de una baraja mezclada?"
+    },
+    {
+        "name":"El trilero",
+        "image":"trilero",
+        "durationTime":3,
+        "price":40,
+        "synopsis":"Conoces el clásico juego del trilero?"
+    },
+    {
+        "name":"Magia botánica",
+        "image":"botanica",
+        "durationTime":4,
+        "price":60,
+        "synopsis":"Te gusta la magia? Y las flores? Perfecto!!"
+    },
+    {
+        "name":"Carta al bolsillo",
+        "image":"bolsillo",
+        "durationTime":6,
+        "price":60,
+        "synopsis":"Dónde esta tu carta? Pues mira en mi bolsillo!"
+    },
+    {
+        "name":"Botella de CocaCola",
+        "image":"coca_cola",
+        "durationTime":5,
+        "price":50,
+        "synopsis":"Puede desaparecer una botella llena?"
+    },
+    {
+        "name":"Inferno",
+        "image":"inferno",
+        "durationTime":5,
+        "price":60,
+        "synopsis":"Qué tal si quemamos cartas?"
+    },
+    {
+        "name":"Cuerda Tabary",
+        "image":"tabary",
+        "durationTime":4,
+        "price":60,
+        "synopsis":"Cuentas puntas tiene una cuerda? 2 verdad?"
+    },
+    {
+        "name":"Carta pescada",
+        "image":"pescada",
+        "durationTime":5,
+        "price":50,
+        "synopsis":"Alguna vez has ido de pesca?"
+    },
+    {
+        "name":"Pasa Pasa",
+        "image":"pasa_pasa",
+        "durationTime":3,
+        "price":50,
+        "synopsis":"4 monedas de plata viajen al son del “Pasa Pasa”"
+    },
+    {
+        "name":"Puntos cambiantes",
+        "image":"puntos_cambiantes",
+        "durationTime":3,
+        "price":40,
+        "synopsis":"Puede una carta ser el 1,3,4,6 y 8 de diamantes?"
+    },
+    {
+        "name":"El mono glotón",
+        "image":"el_mono_gloton",
+        "durationTime":4,
+        "price":50,
+        "synopsis":"Ten cuidado con el mono!"
+    }
+]

@@ -1,0 +1,42 @@
+[
+   {
+            "name":"TRECOPIDIA",
+            "image":"trecopidia",
+            "type":"Cerca",
+            "dataSheet":"\nEspacio Mínimo: Mesa 2 X 1  Interior\n \nPoténcia: 220 v\n \nIluminación a cargo del cliente\n \nTiempo de montaje: 30 minutos aprox\n \nDuración: 1 hora\n \nTiempo de desmontaje: 30 minutos aprox\n \nPrecio: Desde 500€",
+            "durationTime":75,
+            "price":500,
+            "numberTricks": 11,
+            "synopsis": "Alguna vez has pensado toda la magia que cabe en una baraja de cartas?\n \nTrecopidia es un espectáculo pensado principalmente para público adulto donde las siglas del espectáculo TRE(trébol) CO(corazones) PI(picas) DIA(diamantes) llevan un gran peso de la función.\n \nUna magia que se puede vivir de cerca y dónde además de las cartas también intervendrán diferentes objetos como esponjas, monedas, cigarrillos…\n \nTe sorprenderá ver todo el que se puede hacer encima de un tapete y a sólo un palmo de tu nariz.\n \nSi a toda esta magia le sumamos la alegría y el buen humor del ilusionista Kilin mag, no hay ninguna duda que pasaréis un rato difícil de olvidar."
+   },
+   {
+            "name":"La magia de Kilin Mag",
+            "image":"la_magia_de_kilin_mag",
+            "type":"Salón",
+            "dataSheet":"\nEspacio Mínimo: 2 x 2\n \nPoténcia: 220 v\n \nIluminación a cargo del cliente\n \nTiempo de montaje: 45 minutos aprox\n \nDuración: 45 min\n \nTiempo de desmontaje: 45 minutos aprox\n \nPrecio: Desde 480€",
+            "durationTime":45,
+            "price":480,
+            "numberTricks": 9,
+            "synopsis": "La magia de Kilin Mag es un espectáculo diseñado especialmente para ocasiones especiales. Comuniones, bodas de gran magnitud, cumpleaños...\n \nUna mágia sorprendente y participativa donde nunca puedes saber qué pasará. Música, magia, fuego, animales…\n \nTodo esto hace de este espectáculo el más adecuado para dejar satisfechos a todos los presentes.\n \nUn show de mediano formato diseñado al detalle.\n \nSi a esto le sumamos que quién hace posible este espectáculo que es el ilusionista Kilin Mag, no hay ninguna duda que pasaréis un rato difícil de olvidar."
+   },
+   {
+            "name":"Sígueme si puedes",
+            "image":"sigueme_si_puedes",
+            "type":"Itinerante",
+            "dataSheet":"\nEspacio Mínimo: El requerido por el cliente\n \nPoténcia: 220 v\n \nIluminación a cargo del cliente\n \nTiempo de montaje: 30 minutos aprox\n \nDuración: 2 horas\n \nTiempo de desmontaje: 30 minutos aprox\n \nPrecio: Desde 520€",
+            "durationTime":120,
+            "price":520,
+            "numberTricks": 18,
+            "synopsis":"Seguro que más de una vez te has encontrado un banquete, fiesta o algún tipo de acontecimiento en el que los asistentes están muy dispersos y es imposible hacer una actividad y que todo el mundo pueda disfrutar.\n \nSígueme si puedes es una solución únicamente diseñada para este tipo de situaciones, en el que un espectáculo itinerante es lo más adecuado por todos los presentes.\n \nMagia en movimiento que hace disfrutar de los más pequeños a los más grandes. Cartas, monedas, cigarillos, pañuelos… cualquier cosa sirve para hacer magia en este espectáculo.\n \nUn show con un humor diferente y natural con el que seguro que pasaréis un rato de risas inolvidable."
+   },
+   {
+            "name":"The Kilin Show",
+            "image":"the_kilin_show",
+            "type":"Gran Formato",
+            "dataSheet":"\nEspacio Mínimo: Escenario 6 x 4\n \nPoténcia: 220 v\n \nCamerino e iluminación a cargo del cliente\n \nTiempo de montaje: 1 hora aprox\n \nDuración: 1 hora y 15 min \nTiempo de desmontaje: 1 hora aprox\n \nPrecio: Desde 700€",
+            "durationTime":75,
+            "price":700,
+            "numberTricks": 14,
+            "synopsis":"The Kilin Show es un espectáculo diseñado especialmente para grandes ocasiones. Fiestas mayores, bodas de gran magnitud, finales de curso, teatros…\n \nUna mágia sorprendente y participativa donde nunca puedes saber qué pasará. Música, magia, fuego, animales…\n \nTodo esto hace de este espectáculo el más adecuado para dejar satisfechos a todos los presentes.\n \nUn show de gran formato diseñado al detalle.\n \nSi a esto le sumamos que quién hace posible este espectáculo que es el ilusionista Kilin Mag, no hay ninguna duda que pasaréis un rato difícil de olvidar."
+   }
+]

@@ -1,0 +1,18 @@
+[
+   {
+            "name":"TU SHOW DE CERCA",
+            "image":"tu_show_de_cerca",
+            "type":"Cerca",
+            "durationTime":75,
+            "price":500,
+            "tricks": []
+   },
+   {
+            "name":"TU SHOW DE SALÓN",
+            "image":"tu_show_de_salon",
+            "type":"Salón",
+            "durationTime":75,
+            "price":500,
+            "tricks": []
+   }
+]
