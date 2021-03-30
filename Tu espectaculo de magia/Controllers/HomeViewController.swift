@@ -43,7 +43,6 @@ class HomeViewController: UIViewController {
     let datePicker = UIDatePicker()
     var province: String?
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         pickerView.delegate = self
@@ -52,7 +51,6 @@ class HomeViewController: UIViewController {
         textField.layer.cornerRadius = 10
         startButton.roundedButtonValue(value: 6)
         showDatePicker()
-        
         isValidData()
         //pickerView.setValue(UIColor.white, forKey: "white")
     }
@@ -66,7 +64,7 @@ class HomeViewController: UIViewController {
         super.viewWillDisappear(animated)
         navigationController?.setNavigationBarHidden(false, animated: animated)
     }
-    
+    ///Configuración del textField como DatePicker
     func showDatePicker(){
         //Formate Date
         datePicker.datePickerMode = .date
@@ -89,7 +87,7 @@ class HomeViewController: UIViewController {
         isValidData()
         self.view.endEditing(true)
     }
-    
+    ///Cambia el color del botón y su estado (Habilitado o deshabilitado) en función de los campos a rellenar
     private func isValidData() {
         guard let provinceSelected = province,
               !provinceSelected.isEmpty,
@@ -100,10 +98,10 @@ class HomeViewController: UIViewController {
             return
         }
         
-        startButton.backgroundColor = UIColor.red
+        startButton.backgroundColor = UIColor.init(named: "MagicColor")
         startButton.isEnabled = true
     }
-    
+    ///Mensaje de alerta para avisar que no has sleccionado fecha y ubicación
     private func showAlert(message: String) {
         let alert = UIAlertController(title: "Faltan campos por rellenar", message: message, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))

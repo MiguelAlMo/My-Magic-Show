@@ -35,7 +35,7 @@ class TotalShowViewController: UIViewController {
         totalShowView.roundedViewValue(value: 4)
         sendButton.roundedButtonValue(value: 4)
         
-        nameTextField.attributedPlaceholder = NSAttributedString(string: "Nombre:", attributes: [NSAttributedString.Key.foregroundColor : UIColor.white])
+        nameTextField.attributedPlaceholder = NSAttributedString(string: "Nombre:", attributes: [NSAttributedString.Key.foregroundColor : UIColor.lightGray])
         surnameTextField.attributedPlaceholder = NSAttributedString(string: "Apellidos:", attributes: [NSAttributedString.Key.foregroundColor : UIColor.white])
         phoneTextField.attributedPlaceholder = NSAttributedString(string: "Teléfono:", attributes: [NSAttributedString.Key.foregroundColor : UIColor.white])
         emailTextField.attributedPlaceholder = NSAttributedString(string: "Email:", attributes: [NSAttributedString.Key.foregroundColor : UIColor.white])
