@@ -36,6 +36,7 @@
 		DBA27DB3260A513B003D32E8 /* Varita.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DBA27DB2260A513B003D32E8 /* Varita.mp3 */; };
 		DBAFEAE02600ED5100F435EC /* PredesignedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAFEADF2600ED5100F435EC /* PredesignedViewController.swift */; };
 		DBAFEAE32600F1DA00F435EC /* PredesignedViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAFEAE22600F1DA00F435EC /* PredesignedViewCell.swift */; };
+		DBB0D8DE2614606A0078394F /* ShadowsLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB0D8DD2614606A0078394F /* ShadowsLabel.swift */; };
 		DBBA08D0260341480018CB9F /* TotalShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBA08CF260341480018CB9F /* TotalShowViewController.swift */; };
 		DBBA08D326037FC70018CB9F /* FinishBuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBA08D226037FC70018CB9F /* FinishBuyViewController.swift */; };
 /* End PBXBuildFile section */
@@ -72,6 +73,7 @@
 		DBA27DB2260A513B003D32E8 /* Varita.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Varita.mp3; sourceTree = "<group>"; };
 		DBAFEADF2600ED5100F435EC /* PredesignedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredesignedViewController.swift; sourceTree = "<group>"; };
 		DBAFEAE22600F1DA00F435EC /* PredesignedViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredesignedViewCell.swift; sourceTree = "<group>"; };
+		DBB0D8DD2614606A0078394F /* ShadowsLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowsLabel.swift; sourceTree = "<group>"; };
 		DBBA08CF260341480018CB9F /* TotalShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalShowViewController.swift; sourceTree = "<group>"; };
 		DBBA08D226037FC70018CB9F /* FinishBuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishBuyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -199,6 +201,7 @@
 				DB2686F3260154CD00BE0DA2 /* UIViewExtension.swift */,
 				DB2686F726015C7A00BE0DA2 /* UIButtonExtension.swift */,
 				DB29B77626049A67008C307D /* SumCustomShow.swift */,
+				DBB0D8DD2614606A0078394F /* ShadowsLabel.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				DB2686F126014DA400BE0DA2 /* CustomViewCell.swift in Sources */,
 				DB29B77726049A67008C307D /* SumCustomShow.swift in Sources */,
 				DB0BAB1C25FEA0A900C85FAE /* HomeShowsViewCell.swift in Sources */,
+				DBB0D8DE2614606A0078394F /* ShadowsLabel.swift in Sources */,
 				DB4789142602199D00C40BE5 /* TricksSelectedViewController.swift in Sources */,
 				DB2CB5D425EFE58C00C607EE /* Tu_espectaculo_de_magia.xcdatamodeld in Sources */,
 				DBAFEAE32600F1DA00F435EC /* PredesignedViewCell.swift in Sources */,

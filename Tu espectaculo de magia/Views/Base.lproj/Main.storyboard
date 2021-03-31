@@ -23,15 +23,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="W1x-7p-nLi">
-                                <rect key="frame" x="132" y="52" width="150" height="90"/>
+                                <rect key="frame" x="132" y="96" width="150" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="H26-S4-EAB"/>
                                     <constraint firstAttribute="width" constant="150" id="qvq-dt-PWD"/>
                                 </constraints>
                             </imageView>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gRJ-Iu-hVz">
-                                <rect key="frame" x="67" y="462" width="280" height="40"/>
-                                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="67" y="506" width="280" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="WnZ-8e-GUC"/>
@@ -39,7 +39,7 @@
                                 </constraints>
                             </pickerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1GL-us-Z34">
-                                <rect key="frame" x="40" y="182" width="334" height="200"/>
+                                <rect key="frame" x="40" y="226" width="334" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="jfD-RG-4El"/>
                                 </constraints>
@@ -54,17 +54,17 @@ Indicanos la fecha y la ubicación del evento</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Fecha del evento" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HI3-rI-63R">
-                                <rect key="frame" x="67" y="398" width="280" height="40"/>
+                                <rect key="frame" x="67" y="442" width="280" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="280" id="lOY-bb-cFn"/>
                                     <constraint firstAttribute="height" constant="40" id="nCZ-6y-yHw"/>
                                 </constraints>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="19"/>
+                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="eze-PA-3LF">
-                                <rect key="frame" x="94" y="550" width="226.5" height="112"/>
+                                <rect key="frame" x="94" y="594" width="226.5" height="112"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="TKU-sc-o0G">
                                         <rect key="frame" x="56.5" y="0.0" width="113.5" height="21"/>
@@ -157,7 +157,7 @@ Indicanos la fecha y la ubicación del evento</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Le7-CB-x5q">
-                                <rect key="frame" x="32" y="513" width="104.5" height="21"/>
+                                <rect key="frame" x="32" y="557" width="104.5" height="21"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="corazonRojo" translatesAutoresizingMaskIntoConstraints="NO" id="Wof-Nz-G6V">
                                         <rect key="frame" x="0.0" y="0.5" width="20" height="20"/>
@@ -175,14 +175,14 @@ Indicanos la fecha y la ubicación del evento</string>
                                 </subviews>
                             </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="9np-Hi-hk1">
-                                <rect key="frame" x="132" y="52" width="150" height="90"/>
+                                <rect key="frame" x="132" y="96" width="150" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="5N2-ll-gjb"/>
                                     <constraint firstAttribute="width" constant="150" id="8Lk-Q9-Ofd"/>
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="ruz-No-LYh">
-                                <rect key="frame" x="32" y="172" width="150" height="21"/>
+                                <rect key="frame" x="32" y="216" width="150" height="21"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="trebolRojo" translatesAutoresizingMaskIntoConstraints="NO" id="JqQ-PD-FkC">
                                         <rect key="frame" x="0.0" y="0.5" width="20" height="20"/>
@@ -200,7 +200,7 @@ Indicanos la fecha y la ubicación del evento</string>
                                 </subviews>
                             </stackView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="mat-bb-fuv">
-                                <rect key="frame" x="32" y="209" width="350" height="280"/>
+                                <rect key="frame" x="32" y="253" width="350" height="280"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="280" id="o9X-Mb-hhJ"/>
@@ -249,7 +249,7 @@ Indicanos la fecha y la ubicación del evento</string>
                                 </cells>
                             </collectionView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="gt0-Tt-ThP">
-                                <rect key="frame" x="32" y="550" width="350" height="140"/>
+                                <rect key="frame" x="32" y="594" width="350" height="140"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="140" id="c5z-gp-70S"/>
@@ -342,6 +342,7 @@ Indicanos la fecha y la ubicación del evento</string>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="hjI-LB-tSP">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -357,21 +358,21 @@ Indicanos la fecha y la ubicación del evento</string>
             <objects>
                 <viewController id="GOv-mH-nKR" customClass="PredesignedViewController" customModule="Tu_espectaculo_de_magia" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ddP-1U-lpc">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_magia_2" translatesAutoresizingMaskIntoConstraints="NO" id="py5-CJ-Sw0">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="MZu-YT-ZtQ">
-                                <rect key="frame" x="132" y="8" width="150" height="90"/>
+                                <rect key="frame" x="132" y="96" width="150" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="1Qf-m4-tIq"/>
                                     <constraint firstAttribute="height" constant="90" id="CeY-ng-Q2o"/>
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="moZ-hD-Kze">
-                                <rect key="frame" x="32" y="128" width="124.5" height="21"/>
+                                <rect key="frame" x="32" y="216" width="124.5" height="21"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PicaRoja" translatesAutoresizingMaskIntoConstraints="NO" id="Y3E-pG-VdC">
                                         <rect key="frame" x="0.0" y="0.5" width="20" height="20"/>
@@ -389,7 +390,7 @@ Indicanos la fecha y la ubicación del evento</string>
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="drc-t8-iy9">
-                                <rect key="frame" x="292" y="120.5" width="90" height="36"/>
+                                <rect key="frame" x="292" y="208.5" width="90" height="36"/>
                                 <color key="backgroundColor" red="0.32545110579999997" green="0.32551270719999997" blue="0.32544726130000001" alpha="0.9132346854304636" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="90" id="tBl-17-RCG"/>
@@ -404,13 +405,13 @@ Indicanos la fecha y la ubicación del evento</string>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FVh-el-uFM">
-                                <rect key="frame" x="32" y="172.5" width="350" height="230"/>
+                                <rect key="frame" x="32" y="260.5" width="350" height="230"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="230" id="wje-Jn-ISP"/>
                                 </constraints>
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="sxD-7h-h5x">
-                                <rect key="frame" x="32" y="406.5" width="350" height="401.5"/>
+                                <rect key="frame" x="32" y="494.5" width="350" height="367.5"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PredesignedViewCell" rowHeight="380" id="Ts5-Eo-iBn" customClass="PredesignedViewCell" customModule="Tu_espectaculo_de_magia" customModuleProvider="target">
@@ -514,36 +515,36 @@ Si a toda esta magia le sumamos la alegría y el buen humor del joven Kilin mag,
             <objects>
                 <viewController id="bLG-JI-zys" customClass="CustomViewController" customModule="Tu_espectaculo_de_magia" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="R07-hB-0Kg">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.14999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_magia_2" translatesAutoresizingMaskIntoConstraints="NO" id="Vzf-YG-VkE">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XVL-fv-D8u">
-                                <rect key="frame" x="32" y="162.5" width="350" height="180"/>
+                                <rect key="frame" x="32" y="250.5" width="350" height="180"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="zIW-6T-b7L">
                                         <rect key="frame" x="8" y="8" width="334" height="164"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="yZo-j7-VQM">
-                                                <rect key="frame" x="0.0" y="7.5" width="128.5" height="148.5"/>
+                                                <rect key="frame" x="0.0" y="7.5" width="116.5" height="148.5"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pato" translatesAutoresizingMaskIntoConstraints="NO" id="C8I-31-j9e">
-                                                        <rect key="frame" x="14.5" y="0.0" width="100" height="100"/>
+                                                        <rect key="frame" x="8" y="0.0" width="100" height="100"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="100" id="4dF-4Y-3vq"/>
                                                             <constraint firstAttribute="height" constant="100" id="o0W-66-Flh"/>
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Duración: 4 min" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k5Y-AK-R6H">
-                                                        <rect key="frame" x="11" y="106" width="106.5" height="17.5"/>
+                                                        <rect key="frame" x="5" y="106" width="106.5" height="17.5"/>
                                                         <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="15"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Desde 50€" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cM2-lq-Ia0">
-                                                        <rect key="frame" x="28" y="129.5" width="73" height="19"/>
+                                                        <rect key="frame" x="21.5" y="129.5" width="73" height="19"/>
                                                         <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="16"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
@@ -551,22 +552,22 @@ Si a toda esta magia le sumamos la alegría y el buen humor del joven Kilin mag,
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="center" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="ObX-QW-cUz">
-                                                <rect key="frame" x="143.5" y="10" width="190.5" height="143.5"/>
+                                                <rect key="frame" x="131.5" y="10" width="202.5" height="143.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="El pato Renato" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bVB-XN-7Wt">
-                                                        <rect key="frame" x="30.5" y="0.0" width="129.5" height="22.5"/>
+                                                        <rect key="frame" x="36.5" y="0.0" width="129.5" height="22.5"/>
                                                         <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="19"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Crees que un pato puede hacer magia?" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cUq-P7-PoD">
-                                                        <rect key="frame" x="3.5" y="50" width="184" height="37.5"/>
+                                                        <rect key="frame" x="9" y="50" width="184" height="37.5"/>
                                                         <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="16"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z0y-wF-neV">
-                                                        <rect key="frame" x="18" y="108.5" width="155" height="35"/>
+                                                        <rect key="frame" x="23.5" y="108.5" width="155" height="35"/>
                                                         <color key="backgroundColor" name="MagicColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="35" id="Nng-S7-B7T"/>
@@ -595,14 +596,14 @@ Si a toda esta magia le sumamos la alegría y el buen humor del joven Kilin mag,
                                 </constraints>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="lOp-nq-mwj">
-                                <rect key="frame" x="132" y="8" width="150" height="90"/>
+                                <rect key="frame" x="132" y="96" width="150" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="E8l-wQ-wou"/>
                                     <constraint firstAttribute="width" constant="150" id="ZhF-T6-0S5"/>
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="599-b7-yhE">
-                                <rect key="frame" x="32" y="118" width="183.5" height="23.5"/>
+                                <rect key="frame" x="32" y="206" width="183.5" height="23.5"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PicaRoja" translatesAutoresizingMaskIntoConstraints="NO" id="ydk-zj-drJ">
                                         <rect key="frame" x="0.0" y="2" width="20" height="20"/>
@@ -620,7 +621,7 @@ Si a toda esta magia le sumamos la alegría y el buen humor del joven Kilin mag,
                                 </subviews>
                             </stackView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qCg-uB-6NK">
-                                <rect key="frame" x="16" y="366.5" width="382" height="441.5"/>
+                                <rect key="frame" x="16" y="454.5" width="382" height="407.5"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CustomViewCell" rowHeight="105" id="wex-dt-K9Z" customClass="CustomViewCell" customModule="Tu_espectaculo_de_magia" customModuleProvider="target">
@@ -690,7 +691,7 @@ Si a toda esta magia le sumamos la alegría y el buen humor del joven Kilin mag,
                                 </prototypes>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NJc-GC-qdT">
-                                <rect key="frame" x="302" y="113.5" width="80" height="33"/>
+                                <rect key="frame" x="302" y="201.5" width="80" height="33"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="33" id="3ux-EH-cPO"/>
@@ -756,14 +757,14 @@ Si a toda esta magia le sumamos la alegría y el buen humor del joven Kilin mag,
             <objects>
                 <viewController id="Ur3-Ga-LZx" customClass="TotalShowViewController" customModule="Tu_espectaculo_de_magia" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Nkg-5F-6gO">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.10000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_magia_2" translatesAutoresizingMaskIntoConstraints="NO" id="aes-sx-YHG">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tuU-m1-gnQ">
-                                <rect key="frame" x="32" y="168.5" width="350" height="180"/>
+                                <rect key="frame" x="32" y="256.5" width="350" height="180"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="nHk-GQ-ZRB">
                                         <rect key="frame" x="8" y="20.5" width="242" height="139"/>
@@ -821,14 +822,14 @@ Si a toda esta magia le sumamos la alegría y el buen humor del joven Kilin mag,
                                 </constraints>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="UQY-dh-S2x">
-                                <rect key="frame" x="132" y="8" width="150" height="90"/>
+                                <rect key="frame" x="132" y="96" width="150" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="AeP-eZ-xTD"/>
                                     <constraint firstAttribute="width" constant="150" id="INL-EN-oUz"/>
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="vBC-bf-l8S">
-                                <rect key="frame" x="32" y="122" width="108.5" height="22.5"/>
+                                <rect key="frame" x="32" y="210" width="108.5" height="22.5"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PicaRoja" translatesAutoresizingMaskIntoConstraints="NO" id="FiC-o0-40p">
                                         <rect key="frame" x="0.0" y="1.5" width="20" height="20"/>
@@ -846,7 +847,7 @@ Si a toda esta magia le sumamos la alegría y el buen humor del joven Kilin mag,
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="r0J-Ya-DfW">
-                                <rect key="frame" x="64" y="386.5" width="318" height="160"/>
+                                <rect key="frame" x="64" y="474.5" width="318" height="160"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nombre:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jvF-CH-X8S">
                                         <rect key="frame" x="0.0" y="0.0" width="318" height="34"/>
@@ -879,7 +880,7 @@ Si a toda esta magia le sumamos la alegría y el buen humor del joven Kilin mag,
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="wOB-Rj-voB">
-                                <rect key="frame" x="32" y="393.5" width="20" height="146"/>
+                                <rect key="frame" x="32" y="481.5" width="20" height="146"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PicaRoja" translatesAutoresizingMaskIntoConstraints="NO" id="mJ0-VH-WxL">
                                         <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
@@ -912,7 +913,7 @@ Si a toda esta magia le sumamos la alegría y el buen humor del joven Kilin mag,
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Br-oi-WeT">
-                                <rect key="frame" x="167" y="570.5" width="80" height="33"/>
+                                <rect key="frame" x="167" y="658.5" width="80" height="33"/>
                                 <color key="backgroundColor" white="1" alpha="0.81239652317880795" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="33" id="6xp-dK-Tna"/>
@@ -980,14 +981,14 @@ Si a toda esta magia le sumamos la alegría y el buen humor del joven Kilin mag,
             <objects>
                 <viewController id="5Qv-hK-FIj" customClass="TricksSelectedViewController" customModule="Tu_espectaculo_de_magia" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9Le-D6-Qd8">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_magia_2" translatesAutoresizingMaskIntoConstraints="NO" id="Pah-Um-WOn">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j10-j3-Wje">
-                                <rect key="frame" x="32" y="165.5" width="350" height="180"/>
+                                <rect key="frame" x="32" y="253.5" width="350" height="180"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="ibc-fe-4UW">
                                         <rect key="frame" x="8" y="8" width="334" height="164"/>
@@ -1060,7 +1061,7 @@ Si a toda esta magia le sumamos la alegría y el buen humor del joven Kilin mag,
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QkD-Hv-ib7">
-                                <rect key="frame" x="302" y="116.5" width="80" height="33"/>
+                                <rect key="frame" x="302" y="204.5" width="80" height="33"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="33" id="KQK-vu-V1S"/>
@@ -1076,14 +1077,14 @@ Si a toda esta magia le sumamos la alegría y el buen humor del joven Kilin mag,
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="D1e-39-nYl">
-                                <rect key="frame" x="132" y="8" width="150" height="90"/>
+                                <rect key="frame" x="132" y="96" width="150" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="0xe-ad-bZO"/>
                                     <constraint firstAttribute="height" constant="90" id="Nmm-lb-Mwq"/>
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="kQe-pC-5NJ">
-                                <rect key="frame" x="32" y="118" width="105" height="30"/>
+                                <rect key="frame" x="32" y="206" width="105" height="30"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cart.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="0Ys-AZ-LMf">
                                         <rect key="frame" x="0.0" y="1.5" width="30" height="28.5"/>
@@ -1102,7 +1103,7 @@ Si a toda esta magia le sumamos la alegría y el buen humor del joven Kilin mag,
                                 </subviews>
                             </stackView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="vCr-eL-970">
-                                <rect key="frame" x="32" y="369.5" width="350" height="438.5"/>
+                                <rect key="frame" x="32" y="457.5" width="350" height="404.5"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="4iZ-5W-ic5">
                                     <size key="itemSize" width="128" height="128"/>
@@ -1201,21 +1202,21 @@ Si a toda esta magia le sumamos la alegría y el buen humor del joven Kilin mag,
             <objects>
                 <viewController id="EJd-Uj-lov" customClass="FinishBuyViewController" customModule="Tu_espectaculo_de_magia" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hDK-Ld-jTb">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.34999999999999998" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="GC7-ke-fIn">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="6yd-H0-w9V">
-                                <rect key="frame" x="132" y="8" width="150" height="90"/>
+                                <rect key="frame" x="132" y="96" width="150" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="4mZ-Nr-ZXH"/>
                                     <constraint firstAttribute="height" constant="90" id="5g7-Uc-gn9"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zem-Vy-LHU">
-                                <rect key="frame" x="157" y="410" width="100" height="40"/>
+                                <rect key="frame" x="157" y="498" width="100" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="0.80828331953642385" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="N4N-Q0-lFV"/>
@@ -1230,7 +1231,7 @@ Si a toda esta magia le sumamos la alegría y el buen humor del joven Kilin mag,
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EiJ-mu-rF8">
-                                <rect key="frame" x="40" y="138" width="334" height="200"/>
+                                <rect key="frame" x="40" y="226" width="334" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="7zN-zC-K6E"/>
                                 </constraints>
@@ -1278,9 +1279,8 @@ Saludos y magia!
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="0fF-eH-S7G"/>
         <segue reference="da0-tY-jak"/>
-        <segue reference="ygQ-bY-rgC"/>
+        <segue reference="ogf-6b-PKF"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="PicaRoja" width="38" height="41"/>

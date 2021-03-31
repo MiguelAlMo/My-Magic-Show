@@ -29,16 +29,18 @@ class TotalShowViewController: UIViewController {
     var predesigned : Predesigned?
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        titleShow.shadowLabel()
         totalShowView.borderViewColorWhite(value: 1)
         totalShowImage.roundedImage(value: 4)
         totalShowView.roundedViewValue(value: 4)
         sendButton.roundedButtonValue(value: 4)
+        ///Ocultar teclado al presionar en otro lado de la pantalla
+        hideKeyboardWhenTappedAround()
         
         nameTextField.attributedPlaceholder = NSAttributedString(string: "Nombre:", attributes: [NSAttributedString.Key.foregroundColor : UIColor.lightGray])
-        surnameTextField.attributedPlaceholder = NSAttributedString(string: "Apellidos:", attributes: [NSAttributedString.Key.foregroundColor : UIColor.white])
-        phoneTextField.attributedPlaceholder = NSAttributedString(string: "Teléfono:", attributes: [NSAttributedString.Key.foregroundColor : UIColor.white])
-        emailTextField.attributedPlaceholder = NSAttributedString(string: "Email:", attributes: [NSAttributedString.Key.foregroundColor : UIColor.white])
+        surnameTextField.attributedPlaceholder = NSAttributedString(string: "Apellidos:", attributes: [NSAttributedString.Key.foregroundColor : UIColor.lightGray])
+        phoneTextField.attributedPlaceholder = NSAttributedString(string: "Teléfono:", attributes: [NSAttributedString.Key.foregroundColor : UIColor.lightGray])
+        emailTextField.attributedPlaceholder = NSAttributedString(string: "Email:", attributes: [NSAttributedString.Key.foregroundColor : UIColor.lightGray])
         
         if customShow?.tricks?.count ?? 0 > 0 {
             totalShowImage.image = UIImage(named: customShow?.image ?? "" )
@@ -59,4 +61,13 @@ class TotalShowViewController: UIViewController {
                 showDuration.text = "Duración: \(String(describing: predesigned?.durationTime ?? 0)) min"
         }
     }
+    func hideKeyboardWhenTappedAround() {
+        let tap = UITapGestureRecognizer(target: self,
+                         action: #selector(dismissKeyboard))
+        tap.cancelsTouchesInView = false
+        view.addGestureRecognizer(tap)
+      }
+      @objc func dismissKeyboard() {
+        view.endEditing(true)
+      }
 }

@@ -79,6 +79,7 @@ class HomeViewController: UIViewController {
         toolbar.setItems([doneButton,spaceButton], animated: false)
         textField.inputAccessoryView = toolbar
         textField.inputView = datePicker
+        doneButton.tintColor = UIColor.black
     }
     @objc func doneDatePicker(){
         let formatter = DateFormatter()

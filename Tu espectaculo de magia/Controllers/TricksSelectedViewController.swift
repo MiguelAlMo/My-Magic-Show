@@ -80,9 +80,8 @@ class TricksSelectedViewController: UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        trickSelected = showSelected?.tricks?.first
-        
-        //titleLabel.text = showSelected?.type
+        trickSelected = showSelected?.tricks?.first        
+        titleLabel.shadowLabel()
         collectionView.delegate = self
         collectionView.dataSource = self
         imageShow.borderColorWhite(value:1)

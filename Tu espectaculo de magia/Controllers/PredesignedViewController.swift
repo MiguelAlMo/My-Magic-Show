@@ -37,6 +37,7 @@ class PredesignedViewController: UIViewController {
         super.viewDidLoad()
         imageShow.image = UIImage(named: showSelected?.image ?? "")
         titleLabel.text = showSelected?.name
+        titleLabel.shadowLabel()
         tableView.delegate = self
         tableView.dataSource = self
         imageShow.borderColorWhite(value: 1)

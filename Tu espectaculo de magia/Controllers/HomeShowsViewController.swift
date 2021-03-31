@@ -23,6 +23,8 @@ class HomeShowsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        aMedidaLabel.shadowLabel()
+        predisenadoLabel.shadowLabel()
         collectionView1.delegate = self
         collectionView1.dataSource = self
         

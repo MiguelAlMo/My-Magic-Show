@@ -36,7 +36,6 @@ class CustomViewController: UIViewController {
     @IBAction func addButtonAction(_ sender: Any) {
         if let trick = trickAdd {
             showSelected?.tricks?.append(trick)
-            print(trick.name)
         } else {
             showSelected?.tricks?.append(DataProvider.shared.defaultMagicTricks.first!)
         }
@@ -78,6 +77,7 @@ class CustomViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         titleLabel.text = showSelected?.type
+        titleLabel.shadowLabel()
         tableView.delegate = self
         tableView.dataSource = self
         imageShow.borderColorWhite(value:1)
