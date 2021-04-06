@@ -52,7 +52,6 @@ class HomeViewController: UIViewController {
         startButton.roundedButtonValue(value: 6)
         showDatePicker()
         isValidData()
-        //pickerView.setValue(UIColor.white, forKey: "white")
     }
     ///Transparentar la barra superior del navigation Bar
     override func viewWillAppear(_ animated: Bool) {

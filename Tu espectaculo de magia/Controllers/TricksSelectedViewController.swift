@@ -29,10 +29,6 @@ class TricksSelectedViewController: UIViewController{
     
     /// Limpia el UserDefault de prediseñados para no crear conflictos y guarda el show a medida
         @IBAction func buyShowButtonAction(_ sender: Any) {
-    //       deletePredesigned()
-    //      if let show = showSelected{
-    //        saveShowAmedidaSelected(amedida: (show))
-    //      }
         }
     
     /// Eliminar juego, guardar show de nuevo y refrescar el collectionView ya con un juego menos.
