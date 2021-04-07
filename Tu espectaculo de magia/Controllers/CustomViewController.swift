@@ -20,6 +20,7 @@ class CustomViewController: UIViewController {
     @IBOutlet weak var descriptionShowLabel : UILabel!
     @IBOutlet weak var durationLabel : UILabel!
     @IBOutlet weak var priceLabel : UILabel!
+    @IBOutlet weak var counterTrciksLabel : UILabel!
     
     @IBOutlet weak var tableView : UITableView!
     
@@ -54,7 +55,7 @@ class CustomViewController: UIViewController {
             if counter == 0 {
                 
             } else {
-                buttonShow.setTitle("Show \(String(describing: showSelected?.tricks?.count ?? 0))", for: .normal)
+                counterTrciksLabel.text = "\(showSelected?.tricks?.count ?? 0)"
                 showAlert(message: "Has añadido un juego a tu Show!")
                 //audioPlayer.play()
             }
@@ -93,18 +94,18 @@ class CustomViewController: UIViewController {
         durationLabel.text = "Duración: \(String(describing: DataProvider.shared.defaultMagicTricks.first?.durationTime.description ?? "")) min"
         priceLabel.text = "Desde \(String(describing: DataProvider.shared.defaultMagicTricks.first?.price.description ?? ""))€"
      ///Audio al añadir juego
-        do {
-            audioPlayer = try
-                AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "Varita", ofType: "mp3")!))
-            audioPlayer.prepareToPlay()
-        } catch {
-            print(error)
-        }
+//        do {
+//            audioPlayer = try
+//                AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "Varita", ofType: "mp3")!))
+//            audioPlayer.prepareToPlay()
+//        } catch {
+//            print(error)
+//        }
     }
     ///Poner el contador de juegos añadidos con el número de juegos que tiene actualmente el espectáculo
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        buttonShow.setTitle("Show \(String(describing: showSelected?.tricks?.count ?? 0))", for: .normal)
+        counterTrciksLabel.text = "\(showSelected?.tricks?.count ?? 0)"
     }
     
 }

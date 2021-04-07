@@ -524,13 +524,13 @@ Si a toda esta magia le sumamos la alegría y el buen humor del joven Kilin mag,
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XVL-fv-D8u">
-                                <rect key="frame" x="32" y="250.5" width="350" height="180"/>
+                                <rect key="frame" x="32" y="251" width="350" height="180"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="zIW-6T-b7L">
                                         <rect key="frame" x="8" y="8" width="334" height="164"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="yZo-j7-VQM">
-                                                <rect key="frame" x="0.0" y="7.5" width="116.5" height="148.5"/>
+                                                <rect key="frame" x="0.0" y="8" width="116.5" height="148.5"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pato" translatesAutoresizingMaskIntoConstraints="NO" id="C8I-31-j9e">
                                                         <rect key="frame" x="8" y="0.0" width="100" height="100"/>
@@ -554,7 +554,7 @@ Si a toda esta magia le sumamos la alegría y el buen humor del joven Kilin mag,
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="center" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="ObX-QW-cUz">
-                                                <rect key="frame" x="131.5" y="10" width="202.5" height="143.5"/>
+                                                <rect key="frame" x="131.5" y="10.5" width="202.5" height="143"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="El pato Renato" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bVB-XN-7Wt">
                                                         <rect key="frame" x="36.5" y="0.0" width="129.5" height="22.5"/>
@@ -563,13 +563,13 @@ Si a toda esta magia le sumamos la alegría y el buen humor del joven Kilin mag,
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Crees que un pato puede hacer magia?" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cUq-P7-PoD">
-                                                        <rect key="frame" x="9" y="50" width="184" height="37.5"/>
+                                                        <rect key="frame" x="9" y="49.5" width="184" height="37.5"/>
                                                         <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="16"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z0y-wF-neV">
-                                                        <rect key="frame" x="23.5" y="108.5" width="155" height="35"/>
+                                                        <rect key="frame" x="23.5" y="108" width="155" height="35"/>
                                                         <color key="backgroundColor" name="MagicColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="35" id="Nng-S7-B7T"/>
@@ -623,7 +623,7 @@ Si a toda esta magia le sumamos la alegría y el buen humor del joven Kilin mag,
                                 </subviews>
                             </stackView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qCg-uB-6NK">
-                                <rect key="frame" x="16" y="454.5" width="382" height="407.5"/>
+                                <rect key="frame" x="16" y="455" width="382" height="407"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CustomViewCell" rowHeight="105" id="wex-dt-K9Z" customClass="CustomViewCell" customModule="Tu_espectaculo_de_magia" customModuleProvider="target">
@@ -692,22 +692,35 @@ Si a toda esta magia le sumamos la alegría y el buen humor del joven Kilin mag,
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NJc-GC-qdT">
-                                <rect key="frame" x="302" y="201.5" width="80" height="33"/>
-                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="8dl-Ku-eRw">
+                                <rect key="frame" x="332" y="172" width="50" height="65"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kAo-ba-39r">
+                                        <rect key="frame" x="20.5" y="0.0" width="9.5" height="15"/>
+                                        <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="18"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NJc-GC-qdT">
+                                        <rect key="frame" x="0.0" y="15" width="50" height="50"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="anh-8P-YFS"/>
+                                            <constraint firstAttribute="height" constant="50" id="jy1-gy-627"/>
+                                        </constraints>
+                                        <state key="normal" image="iconHat">
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="bold"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="showButtonAction:" destination="bLG-JI-zys" eventType="touchDown" id="zeh-2d-2vO"/>
+                                            <segue destination="5Qv-hK-FIj" kind="show" id="peQ-a6-4Ks"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="33" id="3ux-EH-cPO"/>
-                                    <constraint firstAttribute="width" constant="80" id="zyN-iD-f7q"/>
+                                    <constraint firstAttribute="height" constant="65" id="jxh-R2-e8H"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
-                                <state key="normal" title="Tu Show!">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="showButtonAction:" destination="bLG-JI-zys" eventType="touchDown" id="zeh-2d-2vO"/>
-                                    <segue destination="5Qv-hK-FIj" kind="show" id="peQ-a6-4Ks"/>
-                                </connections>
-                            </button>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="sy9-bJ-lWR"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -717,7 +730,6 @@ Si a toda esta magia le sumamos la alegría y el buen humor del joven Kilin mag,
                             <constraint firstItem="sy9-bJ-lWR" firstAttribute="trailing" secondItem="qCg-uB-6NK" secondAttribute="trailing" constant="16" id="BUf-sw-5cp"/>
                             <constraint firstItem="qCg-uB-6NK" firstAttribute="top" secondItem="XVL-fv-D8u" secondAttribute="bottom" constant="24" id="MyO-bi-hoy"/>
                             <constraint firstItem="lOp-nq-mwj" firstAttribute="centerX" secondItem="R07-hB-0Kg" secondAttribute="centerX" id="Nr8-cr-V7f"/>
-                            <constraint firstItem="NJc-GC-qdT" firstAttribute="centerY" secondItem="e2e-JB-bGz" secondAttribute="centerY" id="RoV-7r-3OZ"/>
                             <constraint firstItem="lOp-nq-mwj" firstAttribute="top" secondItem="sy9-bJ-lWR" secondAttribute="top" constant="8" id="VSE-B2-PCq"/>
                             <constraint firstAttribute="bottom" secondItem="Vzf-YG-VkE" secondAttribute="bottom" id="YqL-zP-4GH"/>
                             <constraint firstItem="Vzf-YG-VkE" firstAttribute="trailing" secondItem="sy9-bJ-lWR" secondAttribute="trailing" id="aF9-2g-ckR"/>
@@ -725,10 +737,11 @@ Si a toda esta magia le sumamos la alegría y el buen humor del joven Kilin mag,
                             <constraint firstItem="qCg-uB-6NK" firstAttribute="bottom" secondItem="sy9-bJ-lWR" secondAttribute="bottom" id="cwL-Ww-4kd"/>
                             <constraint firstItem="qCg-uB-6NK" firstAttribute="leading" secondItem="sy9-bJ-lWR" secondAttribute="leading" constant="16" id="dMp-4b-YRH"/>
                             <constraint firstItem="599-b7-yhE" firstAttribute="top" secondItem="lOp-nq-mwj" secondAttribute="bottom" constant="20" id="ffe-BY-L3k"/>
-                            <constraint firstItem="XVL-fv-D8u" firstAttribute="top" secondItem="NJc-GC-qdT" secondAttribute="bottom" constant="16" id="g4W-cl-WBZ"/>
                             <constraint firstItem="599-b7-yhE" firstAttribute="leading" secondItem="sy9-bJ-lWR" secondAttribute="leading" constant="32" id="gNr-jc-8Mb"/>
-                            <constraint firstItem="sy9-bJ-lWR" firstAttribute="trailing" secondItem="NJc-GC-qdT" secondAttribute="trailing" constant="32" id="m9A-ae-Jay"/>
+                            <constraint firstItem="XVL-fv-D8u" firstAttribute="top" secondItem="8dl-Ku-eRw" secondAttribute="bottom" constant="14" id="hFX-jd-x7a"/>
+                            <constraint firstItem="8dl-Ku-eRw" firstAttribute="top" secondItem="sy9-bJ-lWR" secondAttribute="top" constant="84" id="jsu-G1-BuU"/>
                             <constraint firstItem="Vzf-YG-VkE" firstAttribute="leading" secondItem="sy9-bJ-lWR" secondAttribute="leading" id="vN3-6e-07J"/>
+                            <constraint firstItem="sy9-bJ-lWR" firstAttribute="trailing" secondItem="8dl-Ku-eRw" secondAttribute="trailing" constant="32" id="x9c-bJ-7uJ"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title=" " id="3vj-ra-clP">
@@ -737,6 +750,7 @@ Si a toda esta magia le sumamos la alegría y el buen humor del joven Kilin mag,
                     <connections>
                         <outlet property="buttonAdd" destination="z0y-wF-neV" id="UDb-2J-Vn7"/>
                         <outlet property="buttonShow" destination="NJc-GC-qdT" id="VCd-gF-5RA"/>
+                        <outlet property="counterTrciksLabel" destination="kAo-ba-39r" id="jW3-EL-Lm8"/>
                         <outlet property="descriptionShowLabel" destination="cUq-P7-PoD" id="T0o-5D-Bos"/>
                         <outlet property="durationLabel" destination="k5Y-AK-R6H" id="6L1-p6-9Xu"/>
                         <outlet property="imageBack" destination="Vzf-YG-VkE" id="yuq-N3-8Dn"/>
@@ -752,7 +766,7 @@ Si a toda esta magia le sumamos la alegría y el buen humor del joven Kilin mag,
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lw9-7Q-wvM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2135" y="426"/>
+            <point key="canvasLocation" x="2134.7826086956525" y="425.89285714285711"/>
         </scene>
         <!--  -->
         <scene sceneID="HKj-RX-1Lf">
@@ -1125,17 +1139,17 @@ Si a toda esta magia le sumamos la alegría y el buen humor del joven Kilin mag,
                                                     <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cardtoon" translatesAutoresizingMaskIntoConstraints="NO" id="vPg-RZ-xVC">
-                                                            <rect key="frame" x="2" y="2" width="96" height="96"/>
+                                                            <rect key="frame" x="1" y="1" width="98" height="98"/>
                                                         </imageView>
                                                     </subviews>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                     <constraints>
-                                                        <constraint firstItem="vPg-RZ-xVC" firstAttribute="leading" secondItem="TBP-fA-TSn" secondAttribute="leading" constant="2" id="31z-gw-fW8"/>
+                                                        <constraint firstItem="vPg-RZ-xVC" firstAttribute="leading" secondItem="TBP-fA-TSn" secondAttribute="leading" constant="1" id="31z-gw-fW8"/>
                                                         <constraint firstAttribute="height" constant="100" id="AQ4-ef-vUu"/>
                                                         <constraint firstAttribute="width" constant="100" id="FHB-Kj-a1W"/>
-                                                        <constraint firstAttribute="bottom" secondItem="vPg-RZ-xVC" secondAttribute="bottom" constant="2" id="Tf1-jb-MvW"/>
-                                                        <constraint firstItem="vPg-RZ-xVC" firstAttribute="top" secondItem="TBP-fA-TSn" secondAttribute="top" constant="2" id="cev-wV-arp"/>
-                                                        <constraint firstAttribute="trailing" secondItem="vPg-RZ-xVC" secondAttribute="trailing" constant="2" id="rJ3-rI-5WL"/>
+                                                        <constraint firstAttribute="bottom" secondItem="vPg-RZ-xVC" secondAttribute="bottom" constant="1" id="Tf1-jb-MvW"/>
+                                                        <constraint firstItem="vPg-RZ-xVC" firstAttribute="top" secondItem="TBP-fA-TSn" secondAttribute="top" constant="1" id="cev-wV-arp"/>
+                                                        <constraint firstAttribute="trailing" secondItem="vPg-RZ-xVC" secondAttribute="trailing" constant="1" id="rJ3-rI-5WL"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
@@ -1281,7 +1295,7 @@ Saludos y magia!
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="4Xu-TE-EHI"/>
+        <segue reference="da0-tY-jak"/>
         <segue reference="ogf-6b-PKF"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -1292,6 +1306,7 @@ Saludos y magia!
         <image name="cart.fill" catalog="system" width="128" height="102"/>
         <image name="corazonRojo" width="44" height="41"/>
         <image name="diamanteRojo" width="34" height="38"/>
+        <image name="iconHat" width="33.333332061767578" height="33.333332061767578"/>
         <image name="logo" width="142" height="67"/>
         <image name="paloma" width="233.33332824707031" height="186.66667175292969"/>
         <image name="pato" width="226.33332824707031" height="152.66667175292969"/>
