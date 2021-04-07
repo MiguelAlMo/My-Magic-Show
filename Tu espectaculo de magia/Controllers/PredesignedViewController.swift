@@ -32,7 +32,7 @@ class PredesignedViewController: UIViewController {
             destination.predesigned = showSelected
         }
     }
-    
+ 
     override func viewDidLoad() {
         super.viewDidLoad()
         imageShow.image = UIImage(named: showSelected?.image ?? "")
@@ -44,6 +44,7 @@ class PredesignedViewController: UIViewController {
         imageShow.roundedImage(value: 4)
         buttonBuy.roundedButtonValue(value: 4)
     }
+
 }
 
 extension PredesignedViewController: UITableViewDataSource, UITableViewDelegate {

@@ -106,6 +106,7 @@ class CustomViewController: UIViewController {
         super.viewWillAppear(animated)
         buttonShow.setTitle("Show \(String(describing: showSelected?.tricks?.count ?? 0))", for: .normal)
     }
+    
 }
 
 extension CustomViewController: UITableViewDataSource, UITableViewDelegate {

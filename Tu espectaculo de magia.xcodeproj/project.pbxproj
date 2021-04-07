@@ -32,6 +32,7 @@
 		DB47890D260202D600C40BE5 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB47890C260202D600C40BE5 /* DataProvider.swift */; };
 		DB4789142602199D00C40BE5 /* TricksSelectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4789132602199D00C40BE5 /* TricksSelectedViewController.swift */; };
 		DB48A678260C9C9C00A5A549 /* Provinces.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48A677260C9C9C00A5A549 /* Provinces.swift */; };
+		DB5B31CD261D928800F1E6D3 /* NavigationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5B31CC261D928800F1E6D3 /* NavigationControllerExtension.swift */; };
 		DB7BE81325FFBBF300B9AA03 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7BE81225FFBBF300B9AA03 /* UIImageExtension.swift */; };
 		DBA27DB3260A513B003D32E8 /* Varita.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DBA27DB2260A513B003D32E8 /* Varita.mp3 */; };
 		DBAFEAE02600ED5100F435EC /* PredesignedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAFEADF2600ED5100F435EC /* PredesignedViewController.swift */; };
@@ -69,6 +70,7 @@
 		DB47890C260202D600C40BE5 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
 		DB4789132602199D00C40BE5 /* TricksSelectedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TricksSelectedViewController.swift; sourceTree = "<group>"; };
 		DB48A677260C9C9C00A5A549 /* Provinces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provinces.swift; sourceTree = "<group>"; };
+		DB5B31CC261D928800F1E6D3 /* NavigationControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControllerExtension.swift; sourceTree = "<group>"; };
 		DB7BE81225FFBBF300B9AA03 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		DBA27DB2260A513B003D32E8 /* Varita.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Varita.mp3; sourceTree = "<group>"; };
 		DBAFEADF2600ED5100F435EC /* PredesignedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredesignedViewController.swift; sourceTree = "<group>"; };
@@ -202,6 +204,7 @@
 				DB2686F726015C7A00BE0DA2 /* UIButtonExtension.swift */,
 				DB29B77626049A67008C307D /* SumCustomShow.swift */,
 				DBB0D8DD2614606A0078394F /* ShadowsLabel.swift */,
+				DB5B31CC261D928800F1E6D3 /* NavigationControllerExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB29B77B2604BAC6008C307D /* TricksSelectedViewCell.swift in Sources */,
+				DB5B31CD261D928800F1E6D3 /* NavigationControllerExtension.swift in Sources */,
 				DB0BAB2025FEAB9600C85FAE /* MagicTricks.swift in Sources */,
 				DBAFEAE02600ED5100F435EC /* PredesignedViewController.swift in Sources */,
 				DB48A678260C9C9C00A5A549 /* Provinces.swift in Sources */,

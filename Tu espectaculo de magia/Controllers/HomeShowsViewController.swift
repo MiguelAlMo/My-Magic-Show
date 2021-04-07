@@ -30,6 +30,10 @@ class HomeShowsViewController: UIViewController {
         
         collectionView2.delegate = self
         collectionView2.dataSource = self
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        self.navigationController?.navigationBar.shadowImage = UIImage()
+        self.navigationController?.navigationBar.isTranslucent = true
+        self.navigationController?.view.backgroundColor = .clear
     }
     ///Transparentar la barra superior del navigation Bar
     override func viewWillAppear(_ animated: Bool) {
