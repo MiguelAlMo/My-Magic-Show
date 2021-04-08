@@ -157,7 +157,7 @@ Indicanos la fecha y la ubicación del evento</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Le7-CB-x5q">
-                                <rect key="frame" x="32" y="559" width="104.5" height="21"/>
+                                <rect key="frame" x="32" y="577" width="104.5" height="21"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="corazonRojo" translatesAutoresizingMaskIntoConstraints="NO" id="Wof-Nz-G6V">
                                         <rect key="frame" x="0.0" y="0.5" width="20" height="20"/>
@@ -182,7 +182,7 @@ Indicanos la fecha y la ubicación del evento</string>
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="ruz-No-LYh">
-                                <rect key="frame" x="32" y="218" width="150" height="21"/>
+                                <rect key="frame" x="32" y="222" width="150" height="21"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="trebolRojo" translatesAutoresizingMaskIntoConstraints="NO" id="JqQ-PD-FkC">
                                         <rect key="frame" x="0.0" y="0.5" width="20" height="20"/>
@@ -200,30 +200,30 @@ Indicanos la fecha y la ubicación del evento</string>
                                 </subviews>
                             </stackView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="mat-bb-fuv">
-                                <rect key="frame" x="32" y="255" width="350" height="280"/>
+                                <rect key="frame" x="32" y="263" width="350" height="290"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="280" id="o9X-Mb-hhJ"/>
+                                    <constraint firstAttribute="height" constant="290" id="o9X-Mb-hhJ"/>
                                 </constraints>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="J3m-Oq-JQ3">
-                                    <size key="itemSize" width="130" height="130"/>
+                                    <size key="itemSize" width="140" height="140"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeShowsViewCell" id="ld6-7i-Bn4" customClass="HomeShowsViewCell" customModule="Tu_espectaculo_de_magia" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="130" height="130"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="140" height="140"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="6xZ-ux-Ia1">
-                                            <rect key="frame" x="0.0" y="0.0" width="130" height="130"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="140" height="140"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="trecopidia" translatesAutoresizingMaskIntoConstraints="NO" id="K06-Yy-ZmB">
-                                                    <rect key="frame" x="0.0" y="0.0" width="130" height="130"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="140" height="140"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cerca" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N6F-jM-36B">
-                                                    <rect key="frame" x="1" y="109" width="128" height="20"/>
+                                                    <rect key="frame" x="1" y="119" width="138" height="20"/>
                                                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.7025041390728477" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="17"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -249,30 +249,30 @@ Indicanos la fecha y la ubicación del evento</string>
                                 </cells>
                             </collectionView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="gt0-Tt-ThP">
-                                <rect key="frame" x="32" y="596" width="350" height="140"/>
+                                <rect key="frame" x="32" y="618" width="350" height="140"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="140" id="c5z-gp-70S"/>
                                 </constraints>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="FSQ-0W-QnV">
-                                    <size key="itemSize" width="130" height="130"/>
+                                    <size key="itemSize" width="140" height="140"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeShowsViewCell2" id="B8S-Nc-RMo" customClass="HomeShowsViewCell2" customModule="Tu_espectaculo_de_magia" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="130" height="130"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="140" height="140"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="h7p-EP-60r">
-                                            <rect key="frame" x="0.0" y="0.0" width="130" height="130"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="140" height="140"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sigueme_si_puedes" translatesAutoresizingMaskIntoConstraints="NO" id="Zq5-v8-HrA">
-                                                    <rect key="frame" x="0.0" y="0.0" width="130" height="130"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="140" height="140"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cerca" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ure-KH-9PE">
-                                                    <rect key="frame" x="1" y="109" width="128" height="20"/>
+                                                    <rect key="frame" x="1" y="119" width="138" height="20"/>
                                                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.70250413909999998" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="17"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -304,13 +304,13 @@ Indicanos la fecha y la ubicación del evento</string>
                         <constraints>
                             <constraint firstItem="Mfe-qu-wFU" firstAttribute="trailing" secondItem="mat-bb-fuv" secondAttribute="trailing" constant="32" id="0bo-yN-p2N"/>
                             <constraint firstItem="Mfe-qu-wFU" firstAttribute="trailing" secondItem="gt0-Tt-ThP" secondAttribute="trailing" constant="32" id="C6y-Xe-Thn"/>
-                            <constraint firstItem="mat-bb-fuv" firstAttribute="top" secondItem="ruz-No-LYh" secondAttribute="bottom" constant="16" id="G76-GS-d4e"/>
+                            <constraint firstItem="mat-bb-fuv" firstAttribute="top" secondItem="ruz-No-LYh" secondAttribute="bottom" constant="20" id="G76-GS-d4e"/>
                             <constraint firstItem="gt0-Tt-ThP" firstAttribute="leading" secondItem="Mfe-qu-wFU" secondAttribute="leading" constant="32" id="H6j-rH-ZSI"/>
-                            <constraint firstItem="ruz-No-LYh" firstAttribute="top" secondItem="9np-Hi-hk1" secondAttribute="bottom" constant="32" id="K04-qJ-7BY"/>
+                            <constraint firstItem="ruz-No-LYh" firstAttribute="top" secondItem="9np-Hi-hk1" secondAttribute="bottom" constant="36" id="K04-qJ-7BY"/>
                             <constraint firstItem="9np-Hi-hk1" firstAttribute="top" secondItem="Mfe-qu-wFU" secondAttribute="top" constant="8" id="P0d-5V-Mb8"/>
                             <constraint firstItem="9np-Hi-hk1" firstAttribute="centerX" secondItem="7ZI-XU-rW2" secondAttribute="centerX" id="RII-Ax-gvL"/>
                             <constraint firstItem="Le7-CB-x5q" firstAttribute="top" secondItem="mat-bb-fuv" secondAttribute="bottom" constant="24" id="RTY-QP-u2f"/>
-                            <constraint firstItem="gt0-Tt-ThP" firstAttribute="top" secondItem="Le7-CB-x5q" secondAttribute="bottom" constant="16" id="cNt-pf-5BJ"/>
+                            <constraint firstItem="gt0-Tt-ThP" firstAttribute="top" secondItem="Le7-CB-x5q" secondAttribute="bottom" constant="20" id="cNt-pf-5BJ"/>
                             <constraint firstItem="ruz-No-LYh" firstAttribute="leading" secondItem="Mfe-qu-wFU" secondAttribute="leading" constant="32" id="f4f-cX-5zt"/>
                             <constraint firstItem="mat-bb-fuv" firstAttribute="leading" secondItem="Mfe-qu-wFU" secondAttribute="leading" constant="32" id="uUI-5c-dsf"/>
                             <constraint firstItem="Le7-CB-x5q" firstAttribute="leading" secondItem="Mfe-qu-wFU" secondAttribute="leading" constant="32" id="zjC-lc-RR0"/>
@@ -626,37 +626,37 @@ Si a toda esta magia le sumamos la alegría y el buen humor del joven Kilin mag,
                                 <rect key="frame" x="16" y="455" width="382" height="407"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CustomViewCell" rowHeight="105" id="wex-dt-K9Z" customClass="CustomViewCell" customModule="Tu_espectaculo_de_magia" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="382" height="105"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CustomViewCell" rowHeight="110" id="wex-dt-K9Z" customClass="CustomViewCell" customModule="Tu_espectaculo_de_magia" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="382" height="110"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wex-dt-K9Z" id="tZK-iY-7NC">
-                                            <rect key="frame" x="0.0" y="0.0" width="382" height="105"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="382" height="110"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kau-fH-cCl">
-                                                    <rect key="frame" x="20" y="11" width="342" height="83"/>
+                                                    <rect key="frame" x="20" y="11" width="342" height="88"/>
                                                     <subviews>
                                                         <stackView opaque="NO" contentMode="scaleToFill" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="8Za-0d-k8w">
-                                                            <rect key="frame" x="4" y="4" width="334" height="75"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="342" height="88"/>
                                                             <subviews>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pato" translatesAutoresizingMaskIntoConstraints="NO" id="4fR-rY-QBU">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="80" height="75"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="80" height="88"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="width" constant="80" id="Eeu-SY-2tj"/>
-                                                                        <constraint firstAttribute="height" constant="70" id="p68-hB-tos"/>
+                                                                        <constraint firstAttribute="height" constant="80" id="p68-hB-tos"/>
                                                                     </constraints>
                                                                 </imageView>
-                                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="ZrK-Vm-XNj">
-                                                                    <rect key="frame" x="120" y="0.0" width="214" height="75"/>
+                                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="ZrK-Vm-XNj">
+                                                                    <rect key="frame" x="120" y="0.0" width="222" height="88"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="El pato Renato" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="POX-D9-uJr">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="214" height="34"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="222" height="43"/>
                                                                             <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="18"/>
                                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Desde 50€" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U0q-cB-hoE">
-                                                                            <rect key="frame" x="0.0" y="41" width="214" height="34"/>
+                                                                            <rect key="frame" x="0.0" y="45" width="222" height="43"/>
                                                                             <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="16"/>
                                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                             <nil key="highlightedColor"/>
@@ -668,10 +668,10 @@ Si a toda esta magia le sumamos la alegría y el buen humor del joven Kilin mag,
                                                     </subviews>
                                                     <color key="backgroundColor" red="0.4756349325" green="0.47564673419999998" blue="0.47564041610000002" alpha="0.35107098509933776" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="bottom" secondItem="8Za-0d-k8w" secondAttribute="bottom" constant="4" id="AcP-hz-3Sc"/>
-                                                        <constraint firstItem="8Za-0d-k8w" firstAttribute="top" secondItem="Kau-fH-cCl" secondAttribute="top" constant="4" id="a9m-c3-agK"/>
-                                                        <constraint firstItem="8Za-0d-k8w" firstAttribute="leading" secondItem="Kau-fH-cCl" secondAttribute="leading" constant="4" id="iIM-Mz-gJh"/>
-                                                        <constraint firstAttribute="trailing" secondItem="8Za-0d-k8w" secondAttribute="trailing" constant="4" id="ww8-6P-onL"/>
+                                                        <constraint firstAttribute="bottom" secondItem="8Za-0d-k8w" secondAttribute="bottom" id="AcP-hz-3Sc"/>
+                                                        <constraint firstItem="8Za-0d-k8w" firstAttribute="top" secondItem="Kau-fH-cCl" secondAttribute="top" id="a9m-c3-agK"/>
+                                                        <constraint firstItem="8Za-0d-k8w" firstAttribute="leading" secondItem="Kau-fH-cCl" secondAttribute="leading" id="iIM-Mz-gJh"/>
+                                                        <constraint firstAttribute="trailing" secondItem="8Za-0d-k8w" secondAttribute="trailing" id="ww8-6P-onL"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>

@@ -44,7 +44,6 @@ class PredesignedViewController: UIViewController {
         imageShow.roundedImage(value: 4)
         buttonBuy.roundedButtonValue(value: 4)
     }
-
 }
 
 extension PredesignedViewController: UITableViewDataSource, UITableViewDelegate {
