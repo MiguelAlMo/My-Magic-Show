@@ -53,7 +53,6 @@ class TricksSelectedViewController: UIViewController{
     /// contar número de juegos que tenemos añadidos al espectáculo
     private var counter = 0 {
         didSet {
-            buyShow.setTitle("Reserva \(String(describing: showSelected?.tricks?.count ?? 0))", for: .normal)
             showAlert(message: "Has eliminado un juego de tu Show!")
         }
     }
@@ -87,12 +86,8 @@ class TricksSelectedViewController: UIViewController{
         deleteButton.roundedButtonValue(value: 4)
         buyShow.roundedButtonValue(value: 4)
         uploadShowSelected()
+        buyShow.borderButtonColorWhite(value: 1)
         //showSelected = getShowAmedidaSelected()
-    }
-    ///Poner el contador de juegos añadidos con el número de juegos que tiene actualmente el espectáculo
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        buyShow.setTitle("Reserva \(String(describing: showSelected?.tricks?.count ?? 0))", for: .normal)
     }
     
     func uploadShowSelected() {

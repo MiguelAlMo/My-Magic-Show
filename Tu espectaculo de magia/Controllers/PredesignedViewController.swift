@@ -43,6 +43,7 @@ class PredesignedViewController: UIViewController {
         imageShow.borderColorWhite(value: 1)
         imageShow.roundedImage(value: 4)
         buttonBuy.roundedButtonValue(value: 4)
+        buttonBuy.borderButtonColorWhite(value: 1)
     }
 }
 
